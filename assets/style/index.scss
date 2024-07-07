@@ -32,7 +32,7 @@
     font-size: 40px;
     font-weight: 500;
     position: relative;
-    top: 50px;
+    // top: 50px;
   }
   .second-part{
     font-family: 'mreaves-regular';
@@ -80,7 +80,7 @@
     // font-weight: 400;
   }
 }
-.faq-container {
+.faq-header {
   display: flex;
   align-items: center;
   background-color: black;
@@ -108,5 +108,60 @@
     letter-spacing: .3rem;
     font-size: 20px;
     font-weight: bold;
+  }
+}
+
+
+@media(max-width:1439px){
+  .container{
+    width: 1280px;
+  }
+}
+@media(max-width:1279px){
+  .container{
+    width: 1140px;
+  }
+  .video-container{
+    iframe{
+      width: 900px;
+      height: 415px;
+      margin: 0 auto;
+    }
+  }
+  .text, .clarity, .colour, .cut, .guid, .faq-header, .main-faq {
+    width: 90%;
+  }
+  .guid{
+    img{
+      height: 500px;
+      width: 100%;
+    }
+  }
+}
+@media(max-width:991px){
+  .container{
+    width: 720px;
+  }
+  .video-container{
+    iframe{
+      width: 700px;
+      height: 415px;
+      margin: 0 auto;
+    }
+  }
+}
+@media(max-width:767px){
+  .container{
+    width: 540px;
+  }
+}
+@media(max-width:375px){
+  .container{
+    width: 100%;
+  }
+}
+@media(max-width:350px){
+  .container{
+    width: 100%;
   }
 }
