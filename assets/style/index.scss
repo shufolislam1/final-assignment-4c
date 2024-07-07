@@ -24,6 +24,10 @@
 //     margin: 0 auto;
 //   }
 // }
+.color{
+  color: pink;
+  font-size: 16px!important;
+}
 .text{
   font-family: 'mreaves-book';
   font-size: 16px;
@@ -32,7 +36,13 @@
     font-family: 'mreaves-regular';
     font-size: 20px;
   }
+  .q-header{
+    font-family: 'mreaves-regular';
+    font-size: 20px;
+    font-weight: bold;
+  }
 }
+
 .container{
   .clarity{
     display: flex;
@@ -44,5 +54,31 @@
   h3{
     font-family: 'mreaves-regular';
     // font-weight: 400;
+  }
+}
+.faq-container {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  // border-radius: 50px;
+  // border-start-start-radius: 50px;
+  .faq-icon {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+  }
+  .faq-text {
+    font-family: 'mreaves-regular';
+    letter-spacing: .3rem;
+    font-size: 20px;
+    font-weight: bold;
   }
 }
