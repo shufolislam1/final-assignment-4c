@@ -14,6 +14,28 @@
   font-family: "mreaves-regular";
   src: url("../fonts/MrEavesXLModOT-Reg.ttf") format("truetype");
 }
+.top-header {
+  display: flex;
+  position: relative;
+}
+.top-header .first-part {
+  font-family: "mreaves-book";
+  font-size: 40px;
+  font-weight: 500;
+  position: relative;
+  top: 50px;
+}
+.top-header .second-part {
+  font-family: "mreaves-regular";
+  font-size: 40px;
+  position: relative;
+  top: 40px;
+}
+.top-header span {
+  font-size: 75px;
+  font-weight: 100;
+}
+
 .color {
   color: pink;
   font-size: 16px !important;
@@ -21,11 +43,11 @@
 
 .text {
   font-family: "mreaves-book";
-  font-size: 16px;
+  font-size: 18px;
   word-spacing: 0.2rem;
 }
 .text span {
-  font-family: "mreaves-regular";
+  font-family: "mreaves-bold";
   font-size: 20px;
 }
 .text .q-header {
@@ -41,7 +63,9 @@
 }
 
 .heading h3 {
-  font-family: "mreaves-regular";
+  font-family: "mreaves-book";
+  letter-spacing: 2px;
+  font-size: 30px;
 }
 
 .faq-container {
@@ -50,6 +74,9 @@
   background-color: black;
   color: white;
   padding: 10px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  width: 100%;
 }
 .faq-container .faq-icon {
   width: 30px;
