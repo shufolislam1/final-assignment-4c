@@ -13,4 +13,23 @@
 @font-face {
   font-family: "mreaves-regular";
   src: url("../fonts/MrEavesXLModOT-Reg.ttf") format("truetype");
+}
+.text {
+  font-family: "mreaves-book";
+  font-size: 16px;
+  word-spacing: 0.2rem;
+}
+.text span {
+  font-family: "mreaves-regular";
+  font-size: 20px;
+}
+
+.container .clarity {
+  display: flex;
+  gap: 70px;
+  margin-top: 50px;
+}
+
+.heading h3 {
+  font-family: "mreaves-regular";
 }/*# sourceMappingURL=index.css.map */
