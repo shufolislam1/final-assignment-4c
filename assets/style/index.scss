@@ -121,6 +121,7 @@
 @media(max-width:1279px){
   .container{
     width: 1140px;
+    // margin: 0 auto;
   }
   .video-container{
     iframe{
@@ -129,34 +130,11 @@
       // margin: 0 auto;
     }
   }
-  .text, .clarity, .colour, .cut, .guid, .faq-header, .main-faq {
-    width: 90%;
-    // margin: 0 auto;
+  .heading{
+    h3{
+      margin: 0 auto;
+    }
   }
-  // .clarity{
-  //   img{
-  //     height: 100%;
-  //     width: 100%;
-  //   }
-  // }
-  // .guid{
-  //   img{
-  //     height: 100%;
-  //     width: 100%;
-  //   }
-  // }
-  // .cut{
-  //   img{
-  //     height: 100%;
-  //     width: 100%;
-  //   }
-  // }
-  // .colour{
-  //   img{
-  //     height: 100%;
-  //     width: 100%;
-  //   }
-  // }
 }
 @media(max-width:991px){
   .container{
@@ -200,6 +178,41 @@
       margin: 0 auto;
     }
   }
+  .clarity{
+    flex-direction: column;
+  }
+
+}
+@media(max-width:575px){
+  .container{
+    width: 100%;
+  }
+  .video-container{
+    iframe{
+      width: 410px;
+      height: 215px;
+      margin: 0 auto;
+    }
+  }
+
+
+
+//   .top-header {
+//     align-items: flex-start; /* Align items to the start */
+// }
+
+// .first-part, .second-part, span {
+//     font-size: 30px; /* Adjust font size for smaller screens */
+//     position: static; /* Reset position */
+// }
+
+// .second-part {
+//     margin-top: 10px; /* Add margin for better spacing */
+// }
+
+// span {
+//     font-size: 50px; /* Adjust span size for smaller screens */
+// }
 }
 @media(max-width:375px){
   .container{

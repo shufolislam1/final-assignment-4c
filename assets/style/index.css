@@ -109,8 +109,8 @@
     width: 900px;
     height: 415px;
   }
-  .text, .clarity, .colour, .cut, .guid, .faq-header, .main-faq {
-    width: 90%;
+  .heading h3 {
+    margin: 0 auto;
   }
 }
 @media (max-width: 991px) {
@@ -141,6 +141,19 @@
   }
   .video-container iframe {
     width: 510px;
+    height: 215px;
+    margin: 0 auto;
+  }
+  .clarity {
+    flex-direction: column;
+  }
+}
+@media (max-width: 575px) {
+  .container {
+    width: 100%;
+  }
+  .video-container iframe {
+    width: 410px;
     height: 215px;
     margin: 0 auto;
   }
