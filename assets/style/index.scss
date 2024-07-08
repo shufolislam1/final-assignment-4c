@@ -131,12 +131,30 @@
   .text, .clarity, .colour, .cut, .guid, .faq-header, .main-faq {
     width: 90%;
   }
-  .guid{
-    img{
-      height: 500px;
-      width: 100%;
-    }
-  }
+  // .clarity{
+  //   img{
+  //     height: 100%;
+  //     width: 100%;
+  //   }
+  // }
+  // .guid{
+  //   img{
+  //     height: 100%;
+  //     width: 100%;
+  //   }
+  // }
+  // .cut{
+  //   img{
+  //     height: 100%;
+  //     width: 100%;
+  //   }
+  // }
+  // .colour{
+  //   img{
+  //     height: 100%;
+  //     width: 100%;
+  //   }
+  // }
 }
 @media(max-width:991px){
   .container{
@@ -147,6 +165,24 @@
       width: 700px;
       height: 415px;
       margin: 0 auto;
+    }
+  }
+  .guid{
+    img{
+      height: 100%;
+      width: 100%;
+    }
+  }
+  .cut{
+    img{
+      height: 100%;
+      width: 100%;
+    }
+  }
+  .colour{
+    img{
+      height: 100%;
+      width: 100%;
     }
   }
 }
