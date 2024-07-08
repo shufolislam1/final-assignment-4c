@@ -44,6 +44,7 @@
   font-family: "mreaves-book";
   font-size: 18px;
   word-spacing: 0.2rem;
+  text-align: justify;
 }
 .text span {
   font-family: "mreaves-bold";
@@ -107,7 +108,6 @@
   .video-container iframe {
     width: 900px;
     height: 415px;
-    margin: 0 auto;
   }
   .text, .clarity, .colour, .cut, .guid, .faq-header, .main-faq {
     width: 90%;
@@ -118,7 +118,7 @@
     width: 720px;
   }
   .video-container iframe {
-    width: 700px;
+    width: 650px;
     height: 415px;
     margin: 0 auto;
   }
@@ -138,6 +138,11 @@
 @media (max-width: 767px) {
   .container {
     width: 540px;
+  }
+  .video-container iframe {
+    width: 510px;
+    height: 215px;
+    margin: 0 auto;
   }
 }
 @media (max-width: 375px) {
