@@ -110,14 +110,9 @@ body {
   font-weight: bold;
 }
 
-@media (max-width: 1439px) {
+@media (min-width: 1200px) {
   .container {
-    width: 1280px;
-  }
-}
-@media (max-width: 1279px) {
-  .container {
-    width: 1140px;
+    max-width: 1440px;
   }
   .video-container {
     display: flex;
@@ -127,6 +122,22 @@ body {
     height: 415px;
     flex-grow: 1;
     flex-basis: 0;
+  }
+}
+@media (max-width: 1439px) {
+  .video-container {
+    display: flex;
+  }
+  .video-container iframe {
+    width: 900px;
+    height: 415px;
+    flex-grow: 1;
+    flex-basis: 0;
+  }
+}
+@media (max-width: 1279px) {
+  .container {
+    width: 1140px;
   }
   .heading h3 {
     margin: 0 auto;
