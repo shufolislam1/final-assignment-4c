@@ -26,6 +26,7 @@
 // }
 body{
   margin: 0;
+  height: 100vh;
 }
 .top-header{
   display: flex;
@@ -87,47 +88,40 @@ body{
   }
 }
 .faq-container{
-  // display: flex;
-  margin: 0;
+  // overflow: hidden;
   .faq-header {
-    display: flex;
-    align-items: center;
-    background-color: black;
-    color: white;
-    padding: 4px;
-    border-top-left-radius: 50px;
-    border-bottom-left-radius: 50px;
-    flex-grow: 1;
-    flex-basis: 0;
-    // width: 82vw;
-    box-sizing: border-box;
-    // width: 135%;
-    // box-sizing: border-box;
-    // width: 135%;
-    // border-radius: 50px;
-    // border-start-start-radius: 50px;
-    .faq-icon {
-      width: 34px;
-      height: 34px;
-      background-color: white;
-      color: black;
-      border-radius: 50%;
       display: flex;
-      justify-content: center;
       align-items: center;
-      margin-right: 30px;
-      font-family: 'mreaves-regular';
-      font-size: 40px;
-      margin-left: -2px;
+      background-color: black;
+      color: white;
+      padding: 4px;
+      border-top-left-radius: 50px;
+      border-bottom-left-radius: 50px;
+      width: 86vw;
+      box-sizing: border-box;
+      .faq-icon {
+        width: 34px;
+        height: 34px;
+        background-color: white;
+        color: black;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 30px;
+        font-family: 'mreaves-regular';
+        font-size: 40px;
+        margin-left: -2px;
+      }
+      .faq-text {
+        font-family: 'mreaves-regular';
+        letter-spacing: .3rem;
+        font-size: 20px;
+        font-weight: bold;
+      }
     }
-    .faq-text {
-      font-family: 'mreaves-regular';
-      letter-spacing: .3rem;
-      font-size: 20px;
-      font-weight: bold;
-    }
-  }
 }
+
 
 
 @media (min-width: 1200px) {
@@ -148,7 +142,7 @@ body{
 
 
 
-@media(max-width:1439px){
+@media(max-width:1440px){
   // .container{
   //   width: 1280px;
   // }
@@ -160,6 +154,11 @@ body{
       // margin: 0 auto;
       flex-grow: 1;
       flex-basis: 0;
+    }
+  }
+  .faq-container{
+    .faq-header{
+      width: auto;
     }
   }
   // .clarity{
@@ -211,6 +210,12 @@ body{
       width: 100%;
     }
   }
+
+  .faq-container{
+    .faq-header{
+      width: auto;
+    }
+  }
   
 }
 @media(max-width:767px){
@@ -227,7 +232,6 @@ body{
   .clarity{
     flex-direction: column;
   }
-
 }
 @media(max-width:575px){
   .container{
