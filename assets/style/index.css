@@ -36,7 +36,8 @@ body {
   top: 40px;
 }
 .top-header span {
-  font-size: 75px;
+  font-family: "mreaves-light";
+  font-size: 85px;
   font-weight: 100;
 }
 
@@ -48,7 +49,6 @@ body {
 .text {
   font-family: "mreaves-book";
   font-size: 18px;
-  word-spacing: 0.2rem;
   text-align: justify;
 }
 .text span {
@@ -81,7 +81,7 @@ body {
   align-items: center;
   background-color: black;
   color: white;
-  padding: 5px;
+  padding: 4px;
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
   flex-grow: 1;
@@ -98,7 +98,8 @@ body {
   justify-content: center;
   align-items: center;
   margin-right: 30px;
-  font-size: xx-large;
+  font-family: "mreaves-regular";
+  font-size: 40px;
   margin-left: -2px;
 }
 .faq-container .faq-header .faq-text {
