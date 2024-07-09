@@ -107,6 +107,15 @@ body {
   font-weight: bold;
 }
 
+.lower-colour-text {
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 1440px) {
+  .faq-container .faq-header {
+    width: 78vw;
+  }
+}
 @media (max-width: 1440px) {
   .video-container {
     display: flex;
@@ -116,6 +125,9 @@ body {
     height: 415px;
     flex-grow: 1;
     flex-basis: 0;
+  }
+  .faq-container .faq-header {
+    width: 87vw;
   }
 }
 @media (max-width: 1279px) {
