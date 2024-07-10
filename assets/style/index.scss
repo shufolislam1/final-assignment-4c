@@ -32,11 +32,13 @@ body{
   display: flex;
   position: relative;
   .first-part{
-    font-family: 'mreaves-book';
+    font-family: 'mreaves-regular';
     font-size: 40px;
     font-weight: 500;
     position: relative;
     top: 15px;
+    left: 5px;
+    color: #4b4b4b;
   }
   .second-part{
     font-family: 'mreaves-book';
@@ -44,6 +46,7 @@ body{
     font-size: 42px;
     position: relative;
     top: 45px;
+    left: -8px;
   }
   span{
     font-family: 'mreaves-light';
@@ -105,6 +108,8 @@ body{
       border-bottom-left-radius: 50px;
       width: 86vw;
       box-sizing: border-box;
+      position: relative;
+      margin-left: -25px;
       .faq-icon {
         width: 34px;
         height: 34px;
@@ -132,6 +137,7 @@ body{
   margin-bottom: 1.5rem;
   p{
     margin-bottom: 1.5rem;
+    text-align: left;
   }
 }
 
@@ -154,6 +160,21 @@ body{
   margin-top: 33px;
 }
 
+.video-container{
+  padding-left: 35px;
+}
+.first-p-carat{
+  p{
+    margin-bottom: 1.5rem;
+  }
+}
+
+.colour-img{
+  p{
+    text-align: left;
+  }
+}
+
 // @media (min-width: 1200px) {
 //   .container {
 //       max-width: 1440px;
@@ -173,7 +194,7 @@ body{
 @media(min-width:1440px){
   .faq-container{
     .faq-header{
-      width: 78vw;
+      width: 79vw;
     }
   }
 }
@@ -247,13 +268,16 @@ body{
 
   .clarity{
     flex-direction: column;
-    // .right-img{
-    //   display: flex;
-    //   img{
-    //     flex-grow: 1;
-    //     flex-basis: 0;
-    //   }
-    // }
+    gap: 0;
+    .right-img{
+      // display: flex;
+      img{
+        // flex-grow: 1;
+        // flex-basis: 0;
+        height: 100%;
+        width: 100%;
+      }
+    }
   }
   
 }
@@ -271,6 +295,18 @@ body{
   .faq-container{
     .faq-header{
       width: 81vw;
+    }
+  }
+
+  .top-header{
+    .first-part{
+      font-size: 35px;
+    }
+    .second-part{
+      font-size: 35px;
+    }
+    span{
+      font-size: 80px;
     }
   }
 }
@@ -310,6 +346,7 @@ body{
   .faq-container{
     .faq-header{
       width: 93vw;
+      margin-left: 0px;
     }
   }
 }
@@ -317,6 +354,7 @@ body{
   .container{
     width: 100%;
   }
+
   .top-header{
     .first-part{
       font-size: 25px;
@@ -337,6 +375,13 @@ body{
 @media(max-width:375px){
   .container{
     width: 100%;
+  }
+  .video-container{
+    iframe{
+      width: 280px;
+      height: 200px;
+      margin: 0 auto;
+    }
   }
   .top-header{
     .first-part{

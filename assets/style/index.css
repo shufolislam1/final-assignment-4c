@@ -24,11 +24,13 @@ body {
   position: relative;
 }
 .top-header .first-part {
-  font-family: "mreaves-book";
+  font-family: "mreaves-regular";
   font-size: 40px;
   font-weight: 500;
   position: relative;
   top: 15px;
+  left: 5px;
+  color: #4b4b4b;
 }
 .top-header .second-part {
   font-family: "mreaves-book";
@@ -36,6 +38,7 @@ body {
   font-size: 42px;
   position: relative;
   top: 45px;
+  left: -8px;
 }
 .top-header span {
   font-family: "mreaves-light";
@@ -89,6 +92,8 @@ body {
   border-bottom-left-radius: 50px;
   width: 86vw;
   box-sizing: border-box;
+  position: relative;
+  margin-left: -25px;
 }
 .faq-container .faq-header .faq-icon {
   width: 34px;
@@ -116,6 +121,7 @@ body {
 }
 .lower-colour-text p {
   margin-bottom: 1.5rem;
+  text-align: left;
 }
 
 .colour h3 {
@@ -134,9 +140,21 @@ body {
   margin-top: 33px;
 }
 
+.video-container {
+  padding-left: 35px;
+}
+
+.first-p-carat p {
+  margin-bottom: 1.5rem;
+}
+
+.colour-img p {
+  text-align: left;
+}
+
 @media (min-width: 1440px) {
   .faq-container .faq-header {
-    width: 78vw;
+    width: 79vw;
   }
 }
 @media (max-width: 1440px) {
@@ -187,6 +205,11 @@ body {
   }
   .clarity {
     flex-direction: column;
+    gap: 0;
+  }
+  .clarity .right-img img {
+    height: 100%;
+    width: 100%;
   }
 }
 @media (max-width: 767px) {
@@ -200,6 +223,15 @@ body {
   }
   .faq-container .faq-header {
     width: 81vw;
+  }
+  .top-header .first-part {
+    font-size: 35px;
+  }
+  .top-header .second-part {
+    font-size: 35px;
+  }
+  .top-header span {
+    font-size: 80px;
   }
 }
 @media (max-width: 575px) {
@@ -226,6 +258,7 @@ body {
   }
   .faq-container .faq-header {
     width: 93vw;
+    margin-left: 0px;
   }
 }
 @media (max-width: 425px) {
@@ -248,6 +281,11 @@ body {
 @media (max-width: 375px) {
   .container {
     width: 100%;
+  }
+  .video-container iframe {
+    width: 280px;
+    height: 200px;
+    margin: 0 auto;
   }
   .top-header .first-part {
     font-size: 20px;
