@@ -185,12 +185,31 @@ body {
     flex-basis: 0;
   }
 }
+@media (min-width: 1200px) and (max-width: 1310px) {
+  .faq-container .faq-header {
+    margin-left: 0;
+    width: 98vw;
+  }
+}
+@media (max-width: 1200px) {
+  .video-container iframe {
+    width: 900px;
+    height: 415px;
+    margin: 0 auto;
+  }
+  .text {
+    font-size: 24px;
+  }
+  .faq-container .faq-header {
+    width: 90vw;
+  }
+}
 @media (max-width: 991px) {
   .container {
     width: 720px;
   }
   .video-container iframe {
-    width: 650px;
+    width: 690px;
     height: 415px;
     margin: 0 auto;
   }
@@ -229,7 +248,7 @@ body {
     display: flex;
   }
   .video-container iframe {
-    width: 510px;
+    width: 520px;
     height: 215px;
     margin: 0 auto;
     flex-grow: 1;
