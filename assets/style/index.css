@@ -61,12 +61,16 @@ body {
   font-family: "mreaves-regular";
   font-size: 20px;
   font-weight: bold;
+  margin-bottom: 8px;
 }
 
 .container .clarity {
   display: flex;
   gap: 70px;
   margin-top: 50px;
+}
+.container .clarity .heading .first-p {
+  margin-top: 42px;
 }
 
 .heading h3 {
@@ -109,6 +113,25 @@ body {
 
 .lower-colour-text {
   margin-bottom: 1.5rem;
+}
+.lower-colour-text p {
+  margin-bottom: 1.5rem;
+}
+
+.colour h3 {
+  margin-top: 1.5rem;
+}
+
+.cut .first-cut-p {
+  margin-top: 30px;
+}
+
+.guid .first-p-guid {
+  margin-top: 30px;
+}
+
+.main-faq {
+  margin-top: 33px;
 }
 
 @media (min-width: 1440px) {
@@ -162,6 +185,9 @@ body {
   .faq-container .faq-header {
     width: 83vw;
   }
+  .clarity {
+    flex-direction: column;
+  }
 }
 @media (max-width: 767px) {
   .container {
@@ -171,9 +197,6 @@ body {
     width: 510px;
     height: 215px;
     margin: 0 auto;
-  }
-  .clarity {
-    flex-direction: column;
   }
   .faq-container .faq-header {
     width: 81vw;
