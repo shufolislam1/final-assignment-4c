@@ -53,11 +53,11 @@ body {
 
 .text {
   font-family: "mreaves-book";
-  font-size: 18px;
+  font-size: 20px;
   text-align: justify;
 }
 .text span {
-  font-family: "mreaves-bold";
+  font-family: "mreaves-regular";
   font-size: 20px;
 }
 .text .q-header {
@@ -87,7 +87,7 @@ body {
   align-items: center;
   background-color: black;
   color: white;
-  padding: 4px;
+  padding: 2px;
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
   width: 86vw;
@@ -107,7 +107,6 @@ body {
   margin-right: 30px;
   font-family: "mreaves-regular";
   font-size: 40px;
-  margin-left: -2px;
 }
 .faq-container .faq-header .faq-text {
   font-family: "mreaves-regular";
@@ -142,6 +141,7 @@ body {
 
 .video-container {
   padding-left: 35px;
+  padding-right: 35px;
 }
 
 .first-p-carat p {
@@ -210,6 +210,9 @@ body {
   .clarity .right-img img {
     height: 100%;
     width: 100%;
+  }
+  .video-container {
+    padding-left: 0;
   }
 }
 @media (max-width: 767px) {

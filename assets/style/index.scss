@@ -61,11 +61,11 @@ body{
 }
 .text{
   font-family: 'mreaves-book';
-  font-size: 18px;
+  font-size: 20px;
   // word-spacing: .2rem;
   text-align: justify;
   span{
-    font-family: 'mreaves-bold';
+    font-family: 'mreaves-regular';
     font-size: 20px;
   }
   .q-header{
@@ -103,7 +103,7 @@ body{
       align-items: center;
       background-color: black;
       color: white;
-      padding: 4px;
+      padding: 2px;
       border-top-left-radius: 50px;
       border-bottom-left-radius: 50px;
       width: 86vw;
@@ -122,7 +122,6 @@ body{
         margin-right: 30px;
         font-family: 'mreaves-regular';
         font-size: 40px;
-        margin-left: -2px;
       }
       .faq-text {
         font-family: 'mreaves-regular';
@@ -162,6 +161,7 @@ body{
 
 .video-container{
   padding-left: 35px;
+  padding-right: 35px;
 }
 .first-p-carat{
   p{
@@ -278,6 +278,10 @@ body{
         width: 100%;
       }
     }
+  }
+
+  .video-container{
+    padding-left: 0;
   }
   
 }
